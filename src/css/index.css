@@ -261,13 +261,37 @@ p {
     background-position: 150px -100px;
   }
 
-  .navigation,
   .action {
     display: none;
   }
+
+  .nav {
+    top: -100vh;
+  }
+
+  .nav {
+    padding: 40px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    left: 10%;
+    right: 10%;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.226);
+    transition: all 0.25s ease-in-out;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+
   .hamburger-menu {
     display: block;
     font-size: 2.5rem;
+  }
+
+  .nav.visible {
+    top: 100px;
   }
 
   .hero {
