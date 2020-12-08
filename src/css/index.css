@@ -1,0 +1,242 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  font-family: "Be Vietnam", sans-serif;
+  background-image: url("../images/bg-tablet-pattern.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: -250px;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 3.2rem;
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__item a {
+  margin: 0 10px;
+  font-size: 1.6rem;
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+}
+
+.nav__item a:hover {
+  text-decoration: none;
+  filter: brightness(3);
+}
+
+.btn:hover {
+  color: white;
+}
+
+.btn--primary {
+  padding: 8px 25px;
+  background: hsl(12, 88%, 59%);
+  color: white;
+  border-radius: 1000px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+  box-shadow: hsla(12, 88%, 59%, 0.685) 0 4px 8px;
+}
+
+.btn--secondary {
+  padding: 8px 25px;
+  background: hsl(0, 0%, 100%);
+  color: hsl(12, 88%, 59%);
+  border-radius: 1000px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn--primary:hover {
+  filter: brightness(1.2);
+  box-shadow: hsla(12, 88%, 59%, 0.822) 0 4px 8px;
+}
+
+.btn--secondary:hover {
+  filter: brightness(1.2);
+  color: hsl(12, 88%, 59%);
+}
+
+/*  HERO -------------------------------------------------------------------------------- */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__info h1 {
+  margin-bottom: 25px;
+  line-height: 1.1;
+  font-weight: 700;
+  font-size: 4.5rem;
+  color: hsl(228, 39%, 23%);
+}
+
+p {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: hsl(227, 12%, 61%);
+}
+
+.hero__graphs img {
+  margin-left: 50px;
+  max-width: 750px;
+}
+
+/* DIFFERENCES ---------------------------------------------------------------------------------------- */
+
+.differences {
+  display: flex;
+  justify-content: space-between;
+}
+
+.differences__legend h2 {
+  margin-bottom: 15px;
+  font-size: 3.2rem;
+  color: hsl(228, 39%, 23%);
+  font-weight: 700;
+}
+
+.difference__item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px 15px;
+}
+
+.difference__item--title {
+  align-self: center;
+  font-weight: 700;
+}
+
+.difference__item--description {
+  grid-column-start: 2;
+}
+
+.difference__item--badge {
+  background: hsl(12, 88%, 59%);
+  border-radius: 1000px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 700;
+  padding: 8px 15px;
+}
+
+/* TESTIMONIES -------------------------------------------------------- */
+
+.testimoniesContainer {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.testimony__pic {
+  max-width: 50px;
+}
+
+.testimony__name {
+  margin: 10px 0;
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+  font-size: 1.4rem;
+}
+
+.testimony__description {
+  font-weight: 400;
+  color: hsl(227, 12%, 61%);
+  font-size: 1.4rem;
+}
+
+/* FOOTER ------------------------------------------ */
+
+.simplifySection {
+  padding: 50px 0px;
+  /* background:  */
+  background: url("../images/bg-simplify-section-desktop.svg") rgb(242, 95, 58);
+  background-position-y: -50px;
+}
+
+.simplify h2 {
+  color: white;
+}
+
+.footerContainer {
+  background: #1e1e26;
+}
+
+.footer {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.socials__networks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links a {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer__search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.searcher input {
+  margin-right: 8px;
+  padding: 8px 15px;
+  border-radius: 1000px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.footer__search small {
+  color: hsl(227, 12%, 61%);
+  font-size: 1rem;
+  text-align: end;
+}
