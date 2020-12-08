@@ -17,6 +17,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
   </head>
   <body>
     <header class="header container">
@@ -37,6 +41,7 @@
       <div class="action">
         <button class="btn btn--primary" type="button">Get Started</button>
       </div>
+      <div id="menu" class="hamburger-menu"><i class="fa fa-bars"></i></div>
     </header>
 
     <main class="container">
@@ -58,7 +63,7 @@
       </section>
 
       <section class="differences">
-        <div class="differences__legend mr-5">
+        <div class="differences__legend mr-md-5">
           <h2>What's different about Manage?</h2>
           <p>
             Manage provides all the functionality your team needs, without the
@@ -148,10 +153,10 @@
     <section class="simplifySection mt-5">
       <div class="simplify container">
         <div class="row align-items-center">
-          <div class="col-6">
+          <div class="col-12 col-md-6 text-center text-md-left">
             <h2>Simplify how your team works today</h2>
           </div>
-          <div class="col-6 text-center">
+          <div class="col-12 col-md-6 text-center">
             <button class="btn btn--secondary" type="button">
               Get Started
             </button>
@@ -191,7 +196,7 @@
         <div class="footer__search">
           <div class="searcher">
             <input placeholder="Updates in your inbox..." type="text" />
-            <span class="difference__item--badge">Go</span>
+            <button class="btn difference__item--badge">Go</button>
           </div>
           <small>Copyright 2020. All Lefts Reserved.</small>
         </div>
