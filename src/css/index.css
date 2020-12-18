@@ -255,6 +255,17 @@ p {
   text-align: end;
 }
 
+.credits {
+  padding: 5px 0;
+}
+
+.credits p {
+  text-align: center;
+  margin: 0;
+  color: black;
+  font-size: 1.3rem;
+}
+
 /* MEDIA QUERIESSSSS -------------------------- */
 
 @media screen and (max-width: 1000px) {
